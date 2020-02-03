@@ -1,0 +1,12 @@
+{
+   "result" : {
+      "account_id" : "rauG75adomx2o1cV5YB8Yd8Lsi4F48rKxt",
+      "key_type" : "secp256k1",
+      "master_key" : "SIN RAVE LEON THEE FEET HOG LOLA RAG LOWE AIM OTIS SOON",
+      "master_seed" : "snSwLUWRAPrXQx3L2yV84iUh1QtXq",
+      "master_seed_hex" : "C4999C80CDC2C6B137EE07F5B49E193C",
+      "public_key" : "aB4NmRzY1hMe4ggP4F8mYwtpPvDhEt7XTZYYbTy82wxNrj9RTqDB",
+      "public_key_hex" : "0224EF1AFAA52F0CF5873575464CC62B23B36D2A5204E42E72A7215E06E24EF802",
+      "status" : "success"
+   }
+}

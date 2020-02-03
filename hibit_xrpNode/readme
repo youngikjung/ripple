@@ -1,0 +1,38 @@
+//입금DB insert
+server.js
+
+start
+nohup node server.js &
+
+or
+
+forever start -l myapp.log --minUptime 5000 --spinSleepTime 2000 -a server.js 
+
+stop
+ps -ef | grep server.js
+kill -9 pid
+
+//입금 전송 및 조회
+sendServer.js
+
+start
+nohup node sendServer.js
+
+or
+forever start -l myapp.log --minUptime 5000 --spinSleepTime 2000 -a sendServer.js 
+
+
+stop 
+ps -ef | grep sendServer.js
+kill -9 pid
+
+조회 call method
+222.239.119.57:3100/getTrasaction/123456
+
+입금
+post 방식
+222.239.119.57:3100/sendTrasaction
+
+TX_TO           : address
+TX_TAG          : tag
+TX_TO_VALUE     : xpr
